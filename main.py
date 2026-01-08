@@ -19,10 +19,10 @@ def goats_and_car(name):
     for i in iterations_numbers:
         for j in range(0, i):
             print('REVERSE - FALSE:')
-            results_not_reverse.append(get_result(False)) #player_choice_reverse = False
+            results_not_reverse.append(get_result(False)) # player_choice_reverse = False
             print()
             print('REVERSE - TRUE:')
-            results_reverse.append(get_result(True)) #player_choice_reverse = True
+            results_reverse.append(get_result(True)) # player_choice_reverse = True
         not_reverse_percentage = results_not_reverse.count(True) / len(results_not_reverse) * 100
         results1.append(not_reverse_percentage)
         print(not_reverse_percentage)
